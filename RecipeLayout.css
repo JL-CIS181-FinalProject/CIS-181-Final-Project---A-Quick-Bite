@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+section.main {
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: column wrap;
+  flex-flow: column wrap;
+}
+
+/* Recipe Description */
+
+section.recipeDescription {
+  -webkit-flex: 1 1 300px;
+  flex: 1 1 300px;
+}
+
+/* Recipe Info & Instructions */
+
+section.RecipeDetails {
+  -webkit-flex: 1 1 300px;
+  flex: 1 1 300px;
+}

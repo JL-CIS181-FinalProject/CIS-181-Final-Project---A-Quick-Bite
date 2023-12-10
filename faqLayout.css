@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+/* General FAQ Area Layout */
+
+section.FAQtitle {
+	width: 100%;
+	border: 5px double rgb(57, 37, 1);
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+section#FAQtop {
+	display: -webkit-flex;
+	display: flex;
+	
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+}
+
+section#FAQtop article {
+	-webkit-flex: 1 1 300px;
+	flex: 1 1 300px;	
+}
+
+section#FAQbottom {
+	display: -webkit-flex;
+	display: flex;
+	
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+	
+	align-items: center;
+	justify-content: center;
+	margin-right: 50px;
+	margin-left: 50px;
+	
+}
+
+article#dryweightTable {
+	-webkit-flex: 1 1 200px;
+	flex: 1 1 200px;
+}
+
+article#recipeAbbreviationsTable {
+	-webkit-flex: 1 1 200px;
+	flex: 1 1 200px;
+}
+
+article#substitutionTable {
+	-webkit-flex: 3 1 300px;
+	flex: 3 1 300px;
+}
+
+/* Questions Layout */
+
+
+
+
+
+	
+	
+
+
+
+/* Charts and Tables Layout */
+
+

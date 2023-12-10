@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+/* General HomePage Layout */
+
+section#main article {
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+
+h2.sectionTitle {
+	width:100%;
+}
+
+section#recentPosts {
+  -webkit-flex: 1 1 300px;
+  flex: 1 1 300px;
+}
+
+section#featuredRecipes {
+  -webkit-flex: 1 1 300px;
+  flex: 1 1 300px;
+}
+
+section#featuredVideos {
+  -webkit-flex: 1 1 300px;
+  flex: 1 1 300px;
+}
+
+
+/* This Month's Featured Recipes Layout */
+
+section#featuredRecipes {
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+
+section#featuredRecipes article {
+  -webkit-flex: 1 1 200px;
+  flex: 1 1 200px;
+}
+
+
+
+
+/* Our Recent Posts Layout */
+
+section#recentPosts {
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+
+section#recentPosts article {
+  -webkit-flex: 1 1 200px;
+  flex: 1 1 200px;
+}
+
+/* Feautured Video Layout */

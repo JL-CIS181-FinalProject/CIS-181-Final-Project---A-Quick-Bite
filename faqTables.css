@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+/*Image Styles*/
+article img {
+  width: 75%;
+  margin-top: 50px;
+  margin-left: 40px;
+  margin-right: 40px;
+  border-style: solid;
+  border-width: 25px;
+  border-image: url(Images/laceBorderVer3.png) 80 round;
+}
+
+/*FAQ List Styles*/
+ul#FAQ {
+  list-style-type: none;
+  display: block;
+  height: 575px;
+  margin-right: 60px;
+  margin-top: 50px;
+}
+
+ul#FAQ > li {
+  padding-top: 0px;
+}
+
+
+
+/* Table Styles */
+
+caption {
+  font-size: 1.2em;
+  padding-bottom: 10px;
+}
+
+table {
+  background: #fff890;
+  border: 10px outset #c9c582;
+  border-collapse: collapse;
+  font-size: 1em;
+}
+
+table.recipeAbbreviations {
+  height: 300px;
+  min-width: 200px;
+  margin: 10px;
+}
+
+table.recipeAbbreviations {
+  height: 300px;
+  min-width: 200px;
+  margin: 10px;
+}
+
+table.ingredientSubstitutions {
+  min-width: 400px;
+  margin: 10px;
+}
+
+/* Table Cell Styles */
+table th,
+table td {
+  border: 1px solid gray;
+  padding: 2px;
+  vertical-align: center;
+  text-align: center;
+}
+
+thead {
+  background: #efe66d;
+}
+
+/* Substitution Alternating Colors Styles */
+tbody#one, tbody#three, tbody#five, tbody#seven, tbody#nine {
+  background: #fff890;
+}
+tbody#two, tbody#four, tbody#six, tbody#eight, tbody#ten {
+  background: #c1d56e;

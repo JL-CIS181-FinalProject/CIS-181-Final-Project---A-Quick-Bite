@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+/*Recipe Image Styles */
+
+section.main img {
+  display: block;
+  width: 66.67%;
+  margin: auto;
+  border-image: url(Images/laceBorderVer3.png) 80 round;
+  border-style: solid;
+  border-width: 25px;
+}
+
+/*Recipe Description Styles */
+
+section.recipeDescription {
+  display: block;
+  margin: 10px;
+}
+
+/*Recipe Information and Instructions Styles */
+
+section.recipeDetails {
+  display: block;
+  border: 5px double rgb(102, 76, 3);
+  padding: 5px;
+  margin: 10px;
+}
+
+section > div.RecipeInfo {
+  display: block;
+  border: 5px double rgb(102, 76, 3);
+  padding: 5px;
+  text-align: center;
+}
+
+section > div.recipeIngredients {
+  display: block;
+  padding-left: 10px;
+  margin: 5px;
+}
+
+section > div.recipeIngredients ul {
+  list-style-type: square;
+  padding-top: 5px;
+}
+
+section > div.recipeInstructions {
+  display: block;
+  padding-left: 10px;
+  margin: 5px;
+}
+
+section > div.recipeInstructions ol {
+  list-style-type: decimal;
+  padding-top: 5px;
+}

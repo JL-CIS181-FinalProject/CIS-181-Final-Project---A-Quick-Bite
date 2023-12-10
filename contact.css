@@ -1,0 +1,69 @@
+@charset "utf-8";
+
+/* Button formatting */
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+  background-color: rgb(162, 73, 54);
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: "Gill Sans", sans-serif;
+  border-radius: 25px;
+}
+
+/* Recipe and Comment Box Formatting formatting */
+input[id="recipe"],
+input[id="comment"] {
+  width: 80%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+
+form#recipe {
+  background-color: #a1a267;
+  width: 80%;
+  margin-left: 10%;
+}
+
+form#contact {
+  background-color: #a1a267;
+  width: 80%;
+  margin-left: 10%;
+}
+
+/* All other Box Formatting formatting */
+input[id="fname"],
+input[id="lname"],
+input[id="email"] {
+  width: 80%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+
+form {
+  text-align: center;
+  display: block;
+}
+
+p {
+  text-align: center;
+  width: 80%;
+  margin-left: 10%;
+}
+
+h3 {
+  text-align: center;
+}

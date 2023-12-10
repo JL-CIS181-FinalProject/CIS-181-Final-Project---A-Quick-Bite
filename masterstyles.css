@@ -1,0 +1,238 @@
+@charset "utf-8";
+
+/*
+
+Color Palette :
+  Background color = white
+  Main Color = 162,73,54 (Reddish brown)
+  Second Color = 132,137,74 (Dark greenish yellow)
+  Text color = 52,54,51 (Dark greenish gray)
+
+  BANNER COLORS (I have all the files still and am open to changing colors)
+  Background = 105,110,53 (Green)
+  Doily = 167,77,67 (Red)
+  Text = 111,39,27 (Dark Red)
+  Text Outline = 44,16,11 (Darker Red)
+  
+Font Style: "Gill Sans", sans-serif
+*/
+
+/* ===========
+   Base Styles
+   ===========
+*/
+
+img.recipeLinks {
+  width: 100px;
+}
+
+/* HTML and Body Styles */
+
+html {
+  background-color: rgb(156, 117, 27);
+  height: 100%;
+  font-family: "Gill Sans", sans-serif;
+  color: rgb(52, 54, 51);
+}
+
+body {
+  background-color: rgb(255, 251, 188);
+  box-shadow: rgb(51, 51, 51) 5px 0px 15px, rgb(51, 51, 51) -5px 0px 15px;
+  margin: 0px auto;
+  min-height: 100%;
+  min-width: 320px;
+  max-width: 1024px;
+  width: 100%;
+}
+
+/* Other Font Styles */
+
+h1 {
+  font-family: "Oregano", cursive;
+  color: rgb(52, 54, 51);
+  text-align: center;
+  font-size: 2.5em;
+  padding-top: 20px;
+}
+
+h2 {
+  font-family: "Oregano", cursive;
+  color: rgb(52, 54, 51);
+  text-align: center;
+  font-size: 2em;
+}
+
+h3 {
+  font-family: "Oregano", cursive;
+  color: rgb(52, 54, 51);
+  text-align: center;
+  font-size: 1.5em;
+  padding-top: 10px;
+}
+
+article,
+aside,
+section,
+div,
+p,
+ul,
+ol,
+nav,
+nav a,
+li {
+  font-family: "Gill Sans", sans-serif;
+  color: rgb(52, 54, 51);
+}
+
+form {
+  font-family: "Gill Sans", sans-serif;
+  color: rgb(52, 54, 51);
+}
+
+/* Body Header Styling */
+
+body header {
+  background-color: rgb(167, 77, 67);
+  max-height: 200px;
+  margin-bottom: 5px;
+}
+
+body header > img {
+  display: block;
+  width: 100%;
+}
+
+/* Navigation Styling */
+
+nav.mainNav {
+  background-color: rgb(105, 110, 53);
+  border: 5px double rgb(52, 54, 53);
+  clear: both;
+}
+
+nav.mainNav ul {
+  list-style: none;
+}
+
+nav.mainNav ul li a {
+  text-align: center;
+  display: block;
+  min-height: 50px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+nav.mainNav ul li a:hover {
+  display: block;
+  background-color: #a84736;
+}
+
+/* Main Content Section Styling */
+section.main {
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+iframe {
+	display: block;
+	margin: 0 auto;
+	aspect-ratio: 16 / 9;
+	height: auto;
+	width: 90%;
+}
+/* Articles Styling */
+
+article {
+}
+
+/* Aside Styling */
+
+body aside {
+  background-color: rgb(156, 117, 27);
+  border: 5px double rgb(57, 37, 1);
+  padding: 5px;
+  text-align: right;
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+body aside h3 {
+  text-align: right;
+}
+
+body aside ul {
+  font-size: large;
+  line-height: 1.5em;
+  padding-top: 10px;
+}
+
+/*Footer Styling */
+footer {
+  background-color: rgb(162, 73, 54);
+  min-height: 100px;
+  margin-top: 10px;
+}
+#footer {
+  position: relative;
+  bottom: 0;
+  clear: left;
+}
+
+div#imagefooter {
+  float: left;
+  display: block;
+  width: 33%;
+  padding-top: 10px;
+}
+
+img#logo1 {
+  max-height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul#footer1 {
+  float: left;
+  display: block;
+  width: 33%;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+div#footer3 {
+  text-align: center;
+  float: left;
+  display: block;
+  width: 33%;
+  padding-left: ;
+}
+
+div#footer2 {
+  padding-top: 10px;
+  text-align: center;
+  float: left;
+  display: block;
+  width: 33%;
+}
+/* =============================
+	Mobile Styles: 0 - 640 pixels
+   =============================
+*/
+
+@media only screen and (max-width: 480px) {
+  nav.mainNav a {
+    font-size: 1.5em;
+    line-height: 2.2em;
+  }
+}
+
+/* =================================================
+	Tablet and Desktop Styles: 481 pixels and greater
+   =================================================
+*/
+
+@media only screen and (min-width: 481px) {
+}

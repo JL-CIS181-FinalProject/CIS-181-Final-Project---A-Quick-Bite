@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+/* Image and Video Styling */
+
+section#featuredRecipes img {
+  display: block;
+  max-width: 150px;
+  padding: 5px;
+  margin: auto;
+  border-image: url(Images/laceBorderVer3.png) 80 round;
+  border-style: solid;
+  border-width: 25px;
+}
+
+section#recentPosts img {
+  display: block;
+  max-height: 200px;
+  padding: 5px;
+  margin: auto;
+  border-image: url(Images/laceBorderVer3.png) 80 round;
+  border-style: solid;
+  border-width: 25px;
+}
+
+/* Featured Section Styling */
+
+section#recentPosts {
+  border: 5px double rgb(57, 37, 1);
+  padding: 5px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+
+section#recentPosts p {
+  text-align: center;
+  font-size: large;
+}
+
+section#featuredRecipes {
+  border: 5px double rgb(57, 37, 1);
+  padding: 5px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+
+section#featuredRecipes p {
+  text-align: center;
+}
+
+section#featuredVideos {
+  border: 5px double rgb(57, 37, 1);
+  padding: 5px;
+  margin-right: 5px;
+}
+
+section#featuredVideos p {
+  text-align: center;
+  padding-bottom: 5px;
+  max-width: 600px;
+  margin: auto;
+}
+
+h2.sectionTitle {
+  padding-top: 5px;
+  padding-bottom: 10px;
+  line-height: 1em;
+}
+
+/* =============================
+	Mobile Styles: 0 - 640 pixels
+   =============================
+*/
+
+/* =================================================
+	Tablet and Desktop Styles: 641 pixels and greater
+   =================================================
+*/

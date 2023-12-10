@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+div#allPoducts {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Section Styles */
+
+section.product {
+  display: block;
+  height: 350px;
+  border: 5px double rgb(57, 37, 1);
+  padding: 5px;
+  margin: 5px;
+}
+
+section.product > ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 20px;
+  margin-top: 50px;
+}
+
+input[type="submit"] {
+  background-color: rgb(162, 73, 54);
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: "Gill Sans", sans-serif;
+  border-radius: 25px;
+}
+
+form {
+  text-align: center;
+}
+
+form#wincoStrainer {
+  align-self: center;
+}
+
+/* Image Styles */
+
+article img {
+  height: 50%;
+  border-style: solid;
+  border-width: 25px;
+  border-image: url(Images/laceBorderVer3.png) 80 round;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  float: left;
+}
+
+/* Text Styles */
+
+h2.productName {
+  text-align: center;
+  padding: 5px;
+}
+
+h1.pageTitle {
+  text-align: center;
+  padding: 10px;
+}
